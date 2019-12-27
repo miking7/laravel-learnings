@@ -23,3 +23,7 @@ Route::get('friend/{id}', function ($id) {
     return 'Friend with ID: '.$id;
 })->where('id', '[0-9]+');
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
