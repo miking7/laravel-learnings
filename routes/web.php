@@ -18,3 +18,8 @@ Route::get('/', function () {
 Route::get('foo', function () {
     return 'Hello World';
 });
+
+Route::get('friend/{id}', function ($id) {
+    return 'Friend with ID: '.$id;
+});
+
