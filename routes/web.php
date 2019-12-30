@@ -29,3 +29,8 @@ Route::get('friend/{id}', function ($id) {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/submit', function () {
+    return view('submit');
+});
+
