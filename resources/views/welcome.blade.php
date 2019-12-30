@@ -10,6 +10,7 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
         <!-- Styles -->
+        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
         <style>
             html, body {
                 background-color: #fff;
@@ -90,8 +91,8 @@
                     @endforeach
                 </div>
 
-                <!-- <button class="btn btn-default">Add new link...</button> -->
-                <a href="/submit" class="btn btn-default">Add new link...</a>
+                <!-- <button class="btn btn-primary">Add new link...</button> -->
+                <a class="btn btn-primary" href="/submit" role="button">Add new link...</a>
 
             </div>
         </div>
