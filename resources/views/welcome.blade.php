@@ -89,6 +89,10 @@
                         <a href="{{ $link->url }}">{{ $link->title }}</a>
                     @endforeach
                 </div>
+
+                <!-- <button class="btn btn-default">Add new link...</button> -->
+                <a href="/submit" class="btn btn-default">Add new link...</a>
+
             </div>
         </div>
     </body>
