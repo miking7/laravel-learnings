@@ -47,3 +47,7 @@ Route::post('/submit', function (Request $request) {
 
     return redirect('/');
 });
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});
